@@ -1,0 +1,20 @@
+{
+  "name": "sonicjs-starter",
+  "version": "1.0.0",
+  "description": "SonicJS Starter - Deploy to Cloudflare Workers in one click",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate": "wrangler d1 migrations apply DB --local",
+    "db:migrate:prod": "wrangler d1 migrations apply DB --remote"
+  },
+  "dependencies": {
+    "@sonicjs-cms/core": "^2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241205.0",
+    "typescript": "^5.3.3",
+    "wrangler": "^3.99.0"
+  }
+}
