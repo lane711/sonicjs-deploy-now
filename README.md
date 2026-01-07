@@ -1,8 +1,8 @@
-# SonicJS Starter
+# SonicJS Deploy Now
 
 A ready-to-deploy SonicJS headless CMS application for Cloudflare Workers.
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/lane711/sonicjs-starter)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/lane711/sonicjs-deploy-now)
 
 ## What is SonicJS?
 
@@ -25,8 +25,8 @@ Click the "Deploy to Cloudflare" button above to deploy this starter in seconds.
 
 ```bash
 # Clone this repository
-git clone https://github.com/lane711/sonicjs-starter.git
-cd sonicjs-starter
+git clone https://github.com/lane711/sonicjs-deploy-now.git
+cd sonicjs-deploy-now
 
 # Install dependencies
 npm install
@@ -40,7 +40,7 @@ npm run dev
 ## Project Structure
 
 ```
-sonicjs-starter/
+sonicjs-deploy-now/
 ├── src/
 │   ├── index.ts              # Application entry point
 │   └── collections/          # Your content collections
